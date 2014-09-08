@@ -30,6 +30,106 @@
   margin: 0 auto;
   width: 950px;
 }
+.schoola-blog footer {
+  margin: 100px 0 0;
+  padding: 40px 0 0;
+  background: transparent url('../img//footer/bg-footer-repeat.jpg') repeat-x center 0;
+}
+.schoola-blog footer .footer-col-w:before,
+.schoola-blog footer .footer-col-w:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog footer .footer-col-w:after {
+  clear: both;
+}
+.schoola-blog footer .footer-col {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.schoola-blog footer .footer-col h5,
+.schoola-blog footer .footer-col li a,
+.schoola-blog footer .footer-col li span {
+  color: #18272d;
+  font-size: 14px;
+  line-height: 24px;
+}
+.schoola-blog footer .footer-col h5 {
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.schoola-blog footer .footer-col li a {
+  padding: 0 3px;
+  border: none;
+  font-weight: 100;
+  text-decoration: none;
+}
+.schoola-blog footer .footer-col li a:hover {
+  color: #ffffff;
+  background-color: #18272d;
+}
+.schoola-blog footer .footer-col li a.img-link:hover {
+  color: #18272d;
+  background-color: transparent;
+}
+.schoola-blog footer .footer-col li a i {
+  font-size: 1.3em;
+}
+.schoola-blog footer .footer-col li span {
+  font-weight: 300;
+}
+.schoola-blog footer .footer-col ul {
+  float: none;
+}
+.schoola-blog footer .footer-col li {
+  display: block;
+  padding: 0;
+}
+.schoola-blog footer .norton {
+  margin-top: 40px;
+  height: 58px;
+  background: transparent url('../img//footer/footer-norton.png') no-repeat center 0;
+}
+.schoola-blog footer .schoola-logo {
+  position: relative;
+  margin-top: 20px;
+  padding-top: 72px;
+  background: transparent url('../img//footer/footer-schoola-logo.png') no-repeat center 0;
+}
+.schoola-blog footer .schoola-logo p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+.schoola-blog footer .schoola-logo .subscribe-block {
+  position: relative;
+  top: -190px;
+  margin: 0 auto;
+  width: 500px;
+}
+.schoola-blog footer .schoola-logo label.ie {
+  font-size: 14px;
+}
+.schoola-blog footer .schoola-logo .input-w {
+  position: relative;
+}
+.schoola-blog footer .schoola-logo .input-w input[type=text] {
+  width: 100%;
+  font-size: 14px;
+}
+.schoola-blog footer .schoola-logo .input-w .btn {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
 .schoola-blog .bulletin {
   padding: 20px;
   width: 300px;

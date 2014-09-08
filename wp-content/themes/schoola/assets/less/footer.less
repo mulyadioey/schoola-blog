@@ -1,0 +1,112 @@
+footer {
+    margin: 100px 0 0;
+    padding: 40px 0 0;
+    background: transparent url('@{img}/footer/bg-footer-repeat.jpg') repeat-x center 0;
+
+    .footer-col-w {
+        .clearfix;
+    }
+
+    .footer-col {
+        float: left;
+        width: 25%;
+        text-align: center;
+
+        h5,
+        li a,
+        li span {
+            color: @navy;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        h5 {
+            margin: 0;
+            font-weight: @f-light;
+            text-transform: uppercase;
+        }
+
+        li a {
+            padding: 0 3px;
+            border: none;
+            font-weight: @f-thin;
+            text-decoration: none;
+
+            &:hover {
+                color: @white;
+                background-color: @navy;
+            }
+
+            &.img-link:hover {
+                color: @navy;
+                background-color: transparent;
+            }
+
+            i {
+                font-size: 1.3em;
+            }
+        }
+
+        li span {
+            font-weight: @f-light;
+        }
+
+        // The following properties are for overriding the ones from schoola.css.
+
+        ul {
+            float: none;
+        }
+
+        li {
+            display: block;
+            padding: 0;
+        }
+    }
+
+    .norton {
+        margin-top: 40px;
+        height: 58px;
+        background: transparent url('@{img}/footer/footer-norton.png') no-repeat center 0;
+    }
+
+    .schoola-logo {
+        position: relative;
+        margin-top: 20px;
+        padding-top: 72px;
+        background: transparent url('@{img}/footer/footer-schoola-logo.png') no-repeat center 0;
+
+        p {
+            #s .typo(12px, 24px);
+            text-align: center;
+        }
+
+        .subscribe-block {
+            position: relative;
+            top: -190px;
+            margin: 0 auto;
+            width: 500px;
+        }
+
+        // For IE label.
+        label.ie {
+            font-size: 14px;
+        }
+
+        .input-w {
+            position: relative;
+
+            input[type=text] {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            .btn {
+                position: absolute;
+                top: 5px; right: 4px;
+                font-size: 12px;
+                line-height: 19px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

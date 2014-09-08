@@ -150,5 +150,7 @@
                 <p><a href="#">See More</a></p>
             </section>
         </div><!-- /.container -->
+
+        <?php s_footer(); ?>
     </body>
 </html>
