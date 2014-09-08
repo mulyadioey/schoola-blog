@@ -1,0 +1,272 @@
+.schoola-blog h1,
+.schoola-blog h2,
+.schoola-blog h3,
+.schoola-blog h4,
+.schoola-blog h5,
+.schoola-blog h6,
+.schoola-blog p,
+.schoola-blog li,
+.schoola-blog span,
+.schoola-blog a {
+  color: #18272d;
+  font-family: "Proxima Nova W01", "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.schoola-blog ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.schoola-blog a {
+  color: #e61968;
+  text-decoration: underline;
+}
+.schoola-blog a:hover {
+  text-decoration: none;
+}
+.schoola-blog strong {
+  font-weight: 600;
+}
+.schoola-blog .s-container {
+  margin: 0 auto;
+  width: 950px;
+}
+.schoola-blog .bulletin {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: #fffee5;
+}
+.schoola-blog .bulletin h4 {
+  margin: 15px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.schoola-blog .bulletin p,
+.schoola-blog .bulletin li {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.schoola-blog .bulletin p {
+  margin: 0;
+}
+.schoola-blog .bulletin ul.popular-topics:before,
+.schoola-blog .bulletin ul.popular-topics:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .bulletin ul.popular-topics:after {
+  clear: both;
+}
+.schoola-blog .bulletin ul.popular-topics > li {
+  float: left;
+  margin-left: 5px;
+}
+.schoola-blog .bulletin ul.popular-topics > li:first-child {
+  margin-left: 0;
+}
+.schoola-blog .bulletin .split-block:before,
+.schoola-blog .bulletin .split-block:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .bulletin .split-block:after {
+  clear: both;
+}
+.schoola-blog .bulletin .split-block ul {
+  float: left;
+  width: 45%;
+}
+.schoola-blog .bulletin .split-block ul:first-child {
+  width: 55%;
+}
+.schoola-blog .bulletin a.wi {
+  position: relative;
+  display: inline-block;
+  margin-left: 21px;
+}
+.schoola-blog .bulletin a.wi > i {
+  position: absolute;
+  top: 5px;
+  left: -21px;
+}
+.schoola-blog .module {
+  position: relative;
+  width: 300px;
+  height: 188px;
+}
+.schoola-blog .module .ribbon {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 6px 10px;
+  background-color: #e61968;
+}
+.schoola-blog .module .ribbon ul:before,
+.schoola-blog .module .ribbon ul:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .module .ribbon ul:after {
+  clear: both;
+}
+.schoola-blog .module .ribbon ul > li {
+  float: left;
+  margin-left: 11px;
+}
+.schoola-blog .module .ribbon ul > li:first-child {
+  margin-left: 0;
+}
+.schoola-blog .module .ribbon a {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  text-decoration: none;
+}
+.schoola-blog .module .ribbon a:hover {
+  text-decoration: none;
+}
+.schoola-blog .module .meta-block {
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  padding: 6px 15px;
+  max-width: 260px;
+  background-color: rgba(24, 39, 45, 0.7);
+}
+.schoola-blog .module .meta-block p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.schoola-blog .module.big {
+  width: 630px;
+  height: 400px;
+}
+.schoola-blog .module.big .ribbon {
+  top: 20px;
+  padding: 6px 13px;
+}
+.schoola-blog .module.big .ribbon ul > li {
+  margin-left: 13px;
+}
+.schoola-blog .module.big .ribbon ul > li:first-child {
+  margin-left: 0;
+}
+.schoola-blog .module.big .ribbon a {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.schoola-blog .module.big .ribbon .fa {
+  font-size: 1.25em;
+}
+.schoola-blog .module.big .meta-block {
+  bottom: 0;
+  width: 100%;
+  max-width: inherit;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.schoola-blog .module.big .meta-block h1,
+.schoola-blog .module.big .meta-block h2 {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  margin: 0;
+  padding: 5px 15px;
+  background-color: #fff200;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.schoola-blog .module.big .meta-block p {
+  color: #18272d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-transform: none;
+}
+.schoola-blog .m-row {
+  margin-bottom: 20px;
+}
+.schoola-blog .m-row:before,
+.schoola-blog .m-row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .m-row:after {
+  clear: both;
+}
+.schoola-blog .m-row > .bulletin {
+  float: left;
+  margin-left: 20px;
+}
+.schoola-blog .m-row > .module-rowspan {
+  float: left;
+}
+.schoola-blog .m-row > .module-rowspan > .module:not(:first-child) {
+  margin-top: 22px;
+}
+.schoola-blog .m-row > .module {
+  float: left;
+  margin-left: 20px;
+}
+.schoola-blog .m-row > .module:first-child {
+  margin-left: 0;
+}
+.schoola-blog .previous-block {
+  margin-top: 35px;
+}
+.schoola-blog .previous-block h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.schoola-blog .previous-block ul {
+  margin: 10px 0;
+}
+.schoola-blog .previous-block ul li {
+  padding: 20px 0 18px;
+  background: url(../img/dotted-yellow-lines.png) repeat-x 0 0;
+}
+.schoola-blog .previous-block h3,
+.schoola-blog .previous-block p {
+  margin: 0;
+  text-align: center;
+}
+.schoola-blog .previous-block h3 {
+  font-family: "adobe-text-pro", "Adobe Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.schoola-blog .previous-block h3 a {
+  color: #18272d;
+  font-family: inherit;
+  text-decoration: none;
+}
+.schoola-blog .previous-block h3 a:hover {
+  color: #e61968;
+}
+.schoola-blog .previous-block p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}

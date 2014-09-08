@@ -1,0 +1,228 @@
+.bulletin {
+    padding: 20px;
+    .size(300px, 400px);
+    background-color: #fffee5;
+
+    h4 {
+        margin: 15px 0 0;
+        .type(14px, 18px, @f-bold);
+        text-transform: uppercase;
+    }
+
+    p,
+    li {
+        .type(18px, 24px);
+    }
+
+    p {
+        margin: 0;
+    }
+
+    ul.popular-topics {
+        .clearfix;
+
+        > li {
+            float: left;
+            margin-left: 5px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .split-block {
+        .clearfix;
+
+        ul {
+            float: left;
+            width: 45%;
+
+            &:first-child {
+                width: 55%;
+            }
+        }
+    }
+
+    a.wi {
+        position: relative;
+        display: inline-block;
+        margin-left: 21px;
+
+        > i {
+            position: absolute;
+            top: 5px; left: -21px;
+        }
+    }
+}
+
+.module {
+    position: relative;
+    .size(300px, 188px);
+
+    .ribbon {
+        position: absolute;
+        top: 10px; right: 0;
+        padding: 6px 10px;
+        background-color: @magenta;
+
+        ul {
+            .clearfix;
+
+            > li {
+                float: left;
+                margin-left: 11px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        a {
+            color: @white;
+            .type(15px, 18px);
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .meta-block {
+        position: absolute;     // For itself and `h2`.
+        left: 0; bottom: 12px;
+        padding: 6px 15px;
+        max-width: 260px;
+        background-color: fade(@navy, 70%);
+
+        p {
+            margin: 0;
+            color: @white;
+            .type(14px, 18px);
+            text-transform: uppercase;
+        }
+    }
+}
+
+.module.big {
+    .size(630px, 400px);
+
+    .ribbon {
+        top: 20px;
+        padding: 6px 13px;
+
+        ul > li {
+            margin-left: 13px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        a {
+            .type(18px, 24px);
+        }
+
+        .fa {
+            font-size: 1.25em;
+        }
+    }
+
+    .meta-block {
+        bottom: 0;
+        width: 100%;
+        max-width: inherit;
+        background-color: fade(@white, 80%);
+
+        h1, h2 {
+            position: absolute;
+            top: -30px; left: 0;
+            margin: 0;
+            padding: 5px 15px;
+            background-color: @yellow;
+            .type(18px, 24px, @f-semibold);
+            text-transform: uppercase;
+        }
+
+        p {
+            color: @navy;
+            .type(16px, 22px);
+            text-transform: none;
+        }
+    }
+}
+
+.m-row {
+    .clearfix;
+    margin-bottom: 20px;
+
+    // 1st row.
+    > .bulletin {
+        float: left;
+        margin-left: 20px;
+    }
+
+    // 2nd row.
+    > .module-rowspan {
+        float: left;
+
+        > .module:not(:first-child) {
+            margin-top: 22px;
+        }
+    }
+
+    > .module {
+        float: left;
+        margin-left: 20px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.previous-block {
+    margin-top: 35px;
+
+    h4 {
+        margin: 0;
+        .type(18px, 24px, @f-bold);
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin: 10px 0;
+
+        li {
+            padding: 20px 0 18px;
+            background: url(../img/dotted-yellow-lines.png) repeat-x 0 0;
+        }
+    }
+
+    h3,
+    p {
+        margin: 0;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: @font-family-secondary;
+        .type(30px, 32px, @f-regular);
+
+        a {
+            color: @navy;
+            font-family: inherit;
+            text-decoration: none;
+
+            &:hover {
+                color: @magenta;
+            }
+        }
+    }
+
+    p {
+        .type(18px, 24px);
+    }
+}
