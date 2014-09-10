@@ -25,7 +25,28 @@ strong {
     font-weight: @f-semibold;
 }
 
-.s-container {
-    margin: 0 auto;
-    width: 950px;
+.search-block {
+    margin-top: 20px;
+    padding: 13px 15px;
+    width: 100%;
+    background-color: #fffee5;
+
+    .input-w {
+        position: relative;
+
+        i {
+            position: absolute;
+            top: 6px; right: 5px;
+            color: @navy;
+        }
+    }
+
+    input[type=text] {
+        border: none;
+        padding: 5px 22px 5px 6px;
+        width: 100%;
+        color: @navy;
+        #s .typo(16px, 22px);
+        font-style: italic;
+    }
 }

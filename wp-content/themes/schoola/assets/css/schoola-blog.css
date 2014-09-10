@@ -26,9 +26,42 @@
 .schoola-blog strong {
   font-weight: 600;
 }
+.schoola-blog .search-block {
+  margin-top: 20px;
+  padding: 13px 15px;
+  width: 100%;
+  background-color: #fffee5;
+}
+.schoola-blog .search-block .input-w {
+  position: relative;
+}
+.schoola-blog .search-block .input-w i {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  color: #18272d;
+}
+.schoola-blog .search-block input[type=text] {
+  border: none;
+  padding: 5px 22px 5px 6px;
+  width: 100%;
+  color: #18272d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  font-style: italic;
+}
 .schoola-blog .s-container {
   margin: 0 auto;
   width: 950px;
+}
+.schoola-blog .blog-content {
+  float: left;
+  width: 630px;
+}
+.schoola-blog .blog-sidebar {
+  float: right;
+  width: 300px;
 }
 .schoola-blog footer {
   margin: 100px 0 0;
@@ -369,4 +402,109 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
+}
+.schoola-blog .post-tag {
+  display: inline-block;
+  padding: 8px 13px 7px;
+  background-color: #fff200;
+  color: #18272d;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  text-decoration: none;
+}
+.schoola-blog .block-head {
+  background-color: #fff200;
+}
+.schoola-blog .block-head h1 {
+  margin: 0;
+  padding: 12px 10px 10px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.schoola-blog .post-meta {
+  padding: 15px;
+}
+.schoola-blog .post-meta p {
+  margin: 0;
+  text-align: center;
+}
+.schoola-blog .post-meta p.post-author {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.schoola-blog .post-meta p.post-date {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.schoola-blog .post-meta-2 {
+  margin-top: 30px;
+}
+.schoola-blog .post-meta-2:before,
+.schoola-blog .post-meta-2:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .post-meta-2:after {
+  clear: both;
+}
+.schoola-blog .post-meta-2 > ul {
+  width: 375px;
+}
+.schoola-blog .post-meta-2 > ul:before,
+.schoola-blog .post-meta-2 > ul:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .post-meta-2 > ul:after {
+  clear: both;
+}
+.schoola-blog .post-meta-2 > ul > li {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.schoola-blog .post-meta-2 .social-block {
+  float: right;
+  width: 250px;
+}
+.schoola-blog .post-body p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.schoola-blog .post-body > div:before,
+.schoola-blog .post-body .image-l:before,
+.schoola-blog .post-body .image-r:before,
+.schoola-blog .post-body > div:after,
+.schoola-blog .post-body .image-l:after,
+.schoola-blog .post-body .image-r:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.schoola-blog .post-body > div:after,
+.schoola-blog .post-body .image-l:after,
+.schoola-blog .post-body .image-r:after {
+  clear: both;
+}
+.schoola-blog .post-body > div img,
+.schoola-blog .post-body .image-l img {
+  float: left;
+  margin-right: 20px;
+}
+.schoola-blog .post-body .image-r img {
+  float: right;
+  margin-left: 20px;
 }
